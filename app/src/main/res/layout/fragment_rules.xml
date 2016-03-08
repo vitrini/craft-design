@@ -1,0 +1,83 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="REGRAS"
+                android:textColor="@color/pink"               
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:id="@+id/lingueta_rules_link_site"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="left"
+                android:scrollHorizontally="false"
+                android:text="@string/lingueta_regras_site"                
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:id="@+id/text_view_content"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="left"
+                android:text="Entrada permitida somente para profissionais: lojistas, compradores corporativos, arquitetos, decoradores, designers, imprensa. É necessário comprovar seu interesse profissional através de documento (cartão CNPJ, CREA, cartão de visita etc)."
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:id="@+id/text_view_content"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="left"
+                android:text="Estudantes de arquitetura, mkt, decoração e design podem visitar a feira no dia 17/08/14 entre 16h e 19h, mediante apresentação de documento que comprove sua matrícula (carteira de estudante ou boleto de mensalidade)."
+                android:layout_marginBottom="15dp" />
+                
+
+            <TextView
+                android:id="@+id/text_view_content"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="left"
+                android:text="É proibida a entrada de menores de 14 anos, mesmo que acompanhados de adultos, e mesmo que lactentes."
+                android:layout_marginBottom="15dp" />
+            
+            
+            <TextView
+                android:id="@+id/text_view_content"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="left"
+                android:text="É proibida a venda a varejo."
+                android:layout_marginBottom="15dp" />
+                
+            
+            <TextView
+                android:id="@+id/text_view_content"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="left"
+                android:text="É proibido fotografar.."                
+                android:layout_marginBottom="15dp" />
+                
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
