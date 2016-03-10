@@ -13,3 +13,14 @@ O aplicativo está disponível no Google Play: https://play.google.com/store/app
 - Uso de abas e fragment views
 - Notas 
 - Favoritos
+
+------
+
+![](https://s3-sa-east-1.amazonaws.com/git-hub-craft-design/craft1.png)
+
+![](https://s3-sa-east-1.amazonaws.com/git-hub-craft-design/craft2.png)
+
+![](https://s3-sa-east-1.amazonaws.com/git-hub-craft-design/craft3.png)
+
+![](https://s3-sa-east-1.amazonaws.com/git-hub-craft-design/craft4.png)
+------
